@@ -1,0 +1,1 @@
+-- Query all the flights going to 'Paris' having duration is more than 500 from flights table

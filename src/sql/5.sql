@@ -1,0 +1,1 @@
+-- Query 3 flights of sorted in increasing order by oirigin from flights table
