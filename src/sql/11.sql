@@ -1,1 +1,2 @@
 -- Query all the flights going from 'JFK' and 'LIM' from flights table
+select * from flights where origin=(select id from locations where code='JFK') and destination=(select id from locations where code='LIM');

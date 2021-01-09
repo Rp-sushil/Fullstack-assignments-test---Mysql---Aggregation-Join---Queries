@@ -1,1 +1,2 @@
 -- find the average duration of fligts from flight table having field 'avg_duration' only round to largest integer less than or equal to avg duration
+select round(avg(duration)) as avg_duration from flights;

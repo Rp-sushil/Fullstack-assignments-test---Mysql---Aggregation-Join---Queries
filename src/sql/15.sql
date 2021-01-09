@@ -1,1 +1,2 @@
 -- Query all the flights_id from passengers table having passengers more than 1 
+select p.flight_id as flight_id from passengers as p, (select flight_id ,count(*) as counti from passengers group by flight_id) as b where  counti>1 and p.flight_id = b.flight_id;
